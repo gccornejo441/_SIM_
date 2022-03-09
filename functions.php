@@ -7,6 +7,17 @@ function sim_theme_support() {
 
 add_action('after_setup_theme', 'sim_theme_support');
 
+function sim_menus() {
+    $locations = array(
+        'primary' => "Desktop Navbar",
+        'footer' => "Desktop Footer"
+    );
+
+    register_nav_menus($locations);
+}
+
+add_action('init', 'sim_menus');
+
 function sim_register_styles() {
 
     $version = wp_get_theme()->get('Version');

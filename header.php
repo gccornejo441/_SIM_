@@ -16,7 +16,7 @@ wp_head();
     
 <header>
 <nav class="fixed top-0 z-30">
-        <div class=" w-screen bg-[#3D3D3D] text-white flex justify-between px-2 md:px-10 py-1">
+        <div class=" w-screen bg-[#3D3D3D] text-white flex justify-between px-3 py-1">
       <div class="flex">
           <span>
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -50,11 +50,23 @@ wp_head();
         </span>
       </div>
   </div>
-  <div class=" w-screen bg-[#596BAB] text-white flex justify-between md:py-8 px-3 md:px-10 hidden md:flex z-30">
+  <div class=" w-screen bg-[#596BAB] text-white flex justify-between md:py-4 px-3 md:px-10 hidden md:flex z-30">
       <div>
-          <span class="text-lg md:text-3xl uppercase">Logo</span>
+          <span class="text-xl md:text-xl font-light tracking-9 uppercase text-white">Spiritual Intervention Ministry</span>
       </div>
       <div>
+
+
+      <?php
+      wp_nav_menu(
+        array(
+          'menu' => 'primary',
+          'container' => '',
+          'theme_location' => 'primary',
+          'items_wrap' => '<ul id="grid grid-cols-3 gap-2 text-center" class="">%3$s</ul>',
+        )
+      );
+      ?>
           <ul class="grid grid-cols-3 gap-2 text-center">
             <li class="text-xs md:text-xl">
                 <a class="cursor-pointer hover:underline hover:text-white">Executive Summary</a>

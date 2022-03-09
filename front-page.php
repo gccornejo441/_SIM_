@@ -52,63 +52,48 @@ get_header();
 
     </div>
 
-      <!-- <div class="">
-       <span>
-        Community<br/>Embrace
-        </span></div>
-        <h2>Heading</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div> -->
-
-
     </div><!-- /.row -->
 
 
-    <!-- START THE FEATURETTES -->
 
-    <hr class="featurette-divider">
 
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+   <div>
+      <div class="flex flex-col md:flex-row  mt-44">
+      <div class="col-md-7 px-2 md:px-32">
+        <h2 class="text-left text-5xl font-bold text-[#596BAB] flex flex-col">Agency Description<span class="text-black text-2xl pt-3">It's Founding</span></h2>
+        <p class="text-left text-normal lg:text-lg xl:text-xl my-3 bold md:mr-10">
+          Spiritual Intervention Ministry was founded by Elizabeth Lou in 2019, after seeing many displaced African refugees and immigrants struggling to establish a rewarding life in the United States. 
+Her Christian faith has led her to share the message of Jesus with them and has led her to realize just how trauma, cultural shock, and loneliness have deeply affected this group of people. 
+As a result, Elizabeth began a journey exploring mental health resources, social services, and community building resources for these Africans. She found that there were few to no organizations that could adequately address the cultural challenges, economic difficulties, and the language barriers new African immigrants and their children commonly face. 
+        </p>
       </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+      <div class="col-md-5 px-2 md:px-32">
+        <img src="http://localhost/testsite/wp-content/uploads/2022/03/rise-up.jpg" />
       </div>
     </div>
 
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+    <div class="flex flex-col md:flex-row mt-5 md:mt-44">
+      <div class="col-md-7 order-md-2 px-2  md:px-32">
+       <h2 class="text-left text-5xl  font-bold text-[#596BAB] flex flex-col">Building Community<span class="text-black text-2xl pt-3">Revival Groups (RG)</span></h2>
+        <p class="text-left text-normal lg:text-lg xl:text-xl my-3 bold">
+         After witnessing much need in this community, she began to wonder what her role was as a Christian woman. It soon became obvious that in order to continue sharing her love for God with these displaced Africans, it must begin by addressing some of the most fundamental challenges that they experience daily. 
+In 2019, Elizabeth began Revival Groups (RG) in the hope of building community, fostering belonging and positive identity, and providing a safe place to process the challenges of life among Africans.  SIM hosts RG to address the need of displaced Africans through a more personal approach by providing a spiritual community of support to accompany the social services that are necessary. Additionally, SIM aims to empower refugees and immigrants to be a part of the solution by providing opportunities for members of the community to give back to others. 
+        </p>
       </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      <div class="col-md-5 order-md-1 px-2 md:px-32">
+       <img src="http://localhost/testsite/wp-content/uploads/2022/03/mother.jpg" />
 
       </div>
     </div>
-
-    <hr class="featurette-divider">
-
-    <!-- /END THE FEATURETTES -->
+   </div>
+   <div class="bg-[#EAEEFF] text-center py-32 mt-5">
+     <div>
+       <h2 class="text-6xl font-bold">Make A Donation</h2>
+       <div class="mt-5">
+        <a class="border-3 border-[#3D3D3D] px-5 py-2 rounded-full text-bold text-3xl hover:bg-[#3D3D3D] hover:text-[#EAEEFF] cursor-pointer">Donate Today</a>
+      </div>
+     </div>
+   </div>
 
   </div><!-- /.container -->
 
